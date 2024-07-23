@@ -1,0 +1,716 @@
+.rakkas-regular {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+font-family: "Rakkas", serif;
+padding: 0px;
+margin: 0px;
+}
+  
+.body-content {
+padding: 0% 15%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ca302b;
+}
+
+a:visited {
+  color: #ca302b;
+}
+
+
+#banner-img {
+    width: 75%;
+    height: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+
+.banner {
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+
+a:hover {
+    color: green;
+}
+
+a:hover #past {
+  color: green;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  margin: 0px;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #BA1713;
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+}
+
+hr {
+    color: black;
+    background: black;
+    height: 2px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.child {
+    width: 33%;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*.inner-containerb {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.item-picb {*/
+/*  width: 200px;*/
+/*  height: 200px;*/
+/*}*/
+
+.item-picb a:link {
+  width: 200px;
+  height: 200px;
+}
+
+.inner-container {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.rare-inner {
+    padding: 10px;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.clothing-header {
+  margin-bottom: 50px;
+}
+
+.rarepic {
+  width: 400px;
+  height: 500px;
+}
+
+.rare-pic {
+  width: 400px;
+  height: 600px;
+}
+
+#item-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.item-pic {
+  width: 250px;
+  height: 250px;
+}
+
+#clothing-pic {
+  width: 150px;
+  height: 250px;
+}
+
+
+#skin {
+    width: 250px;
+    height: 250px;
+}
+
+.item-head {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 1.5rem;
+    color: #ca302b;
+    font-weight: bold;
+}
+
+#head {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.text {
+    text-align: center;
+    width: 200px;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.info {
+    text-align: center;
+
+}
+
+h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 17px;
+}
+
+li {
+    margin: 10px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+span {
+    color: #ca302b;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.easter-items {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 17px;
+  }
+  
+  #easter-pic {
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+  
+  #easter-pic2 {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+  
+  #easter-pic3 {
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+  
+.event-banner {
+  text-align: center;
+}
+  
+    .alert {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  #madisons {
+    margin-top: 50px;
+    width: 900px;
+    height: 700px;
+    margin-bottom: 25px;
+  }
+  
+  .money {
+    color: #ca302b;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+    .center-money {
+    text-align: center;
+    }
+  
+  #ending {
+    text-align: center;
+    color: #ca302b;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid #ca302b;
+  }
+  
+  #eldorado {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+
+  .index {
+    margin-top: 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  #index-top {
+    margin-top: 100px;
+  }
+  
+  p {
+    font-size: 17px;
+    padding: 0px 5%;
+    display: inline-block;
+  }
+  
+  table {
+    text-align: center;
+    display: inline;
+  }
+  
+  #city {
+    color: #ca302b;
+    font-size: 30px;
+  }
+  
+  #skin {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .table-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    table {
+        width: auto;
+        border-collapse: collapse;
+        table-layout: auto;
+    }
+    th, td {
+        padding: 8px;
+        text-align: center;
+        /*border-bottom: 1px solid #ddd;*/
+    }
+    
+    .table {
+      padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    
+    .bold {
+    color: black;
+    font-weight: bold;
+}
+
+.start {
+    text-align: center;
+}
+
+#start-bottom {
+  width: 300px;
+  height: 450px;
+}
+
+#start-middle {
+  width: 350px;
+  height: 300px;
+}
+
+ #english-pic {
+    width: 500px;
+    height: 500px;
+  }
+
+.start-one {
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+#start-pic {
+    width: 500px;
+    height: 500px;
+}
+
+#register {
+    border: 1px solid rgb(229, 221, 221);
+    padding: 10px;
+    display: inline-block; 
+}
+
+a.btn {
+    color: white;
+    background-color: #ca302b;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    transition: background-color 1s;
+    background-color: green;
+}
+
+#shadow {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+}
+
+#option {
+    font-size: 20px;
+    color: #ca302b;
+}
+
+a.btn-o {
+    color: white;
+    background-color: #ca302b;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 150px;
+}
+
+.btn-o:hover {
+    transition: background-color 1s;
+    background-color: green;
+    cursor: pointer;
+}
+
+a.btn-top {
+    color: white;
+    background-color: #ca302b;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+.btn-top:hover {
+    transition: background-color 1s;
+    background-color: green;
+    cursor: pointer;
+}
+
+a.btn-s {
+    color: white;
+    background-color: #ca302b;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    width: 300px;
+  }
+
+  .btn-s:hover {
+    transition: background-color 1s;
+    background-color: green;
+  }
+  
+  a.namehover:hover {
+    background-color: green;
+    color: green;
+  }
+  
+  .item-headmystic {
+    text-align: center;
+    margin-bottom: 50px;
+    Margin-top: 50px;
+    font-size: 1.5rem;
+    color: #ca302b;
+    font-weight: bold;
+}
+
+#mystic-picture {
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+#witchlogo {
+  width: 600px;
+  height: 400px;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.witchevent-pic {
+  width: 300px;
+  height: 400px;
+}
+
+.task-pic {
+  width: 400px;
+  height: 200px;
+}
+.ghost-pic {
+  width: 400px;
+  height: 400px;
+}
+
+.ghost-heading {
+  color: #ca302b;
+  font-size: 18px;
+}
+
+.grim-pic {
+  width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.class {
+  font-size: 25px;
+}
+
+.emoji-head {
+  font-size: 25px;
+}
+
+.centerr p {
+  text-align: center;
+    color: #ca302b;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid #ca302b;
+    font-size: 30px;
+}
+
+.centerr {
+  text-align: center;
+}
+
+.tina-container {
+  text-align: center;
+}
+
+.tinaitem-head {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ca302b;
+    font-weight: bold;
+}
+
+.witch-container {
+  text-align: center;
+}
+
+.witchitem-head {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ca302b;
+    font-weight: bold;
+}
+
+.past-head {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+#eastlogo {
+  width: 500px;
+  height: 300px;
+}
+
+.iceevent {
+  width: 800px;
+  height: 500px;
+}
+
+.ice-pic {
+  width: 600px;
+  height: 400px;
+}
+
+.mac-pic {
+  width: 900px;
+  height: 700px;
+}
+
+#mac-pic2 {
+  width: 500px;
+  height: 500px;
+}
+
+.red {
+  color: #ca302b;
+}
+
+.icetopia-container {
+  text-align: center;
+}
+
+.icebench-pic {
+  width: 500px;
+  height: 400px;
+}
+
+.icelist {
+  width: 400px;
+  height: 600px;
+}
+
+.garden-pic {
+  width: 400px;
+  height: 300px;
+}
+
+.vegdeath-pic {
+  width: 400px;
+  height: 200px;
+}
+
+.garden-head {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+}
+  
+  @media only screen and (max-width: 500px) {
+    #easterlogo {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+    #easter-pic {
+        width: 400px;
+        height: 400px;
+    }
+    .main-nav {
+        display: inline;
+        font-size: 15px;
+    }
+    #start-pic {
+      width: 300px;
+        height: 300px;
+    }
+    #roomie-pic {
+        width: 300px;
+        height: 300px;
+    }
+    #start-bottom {
+      width: 250px;
+      height: 300px;
+    }
+    #start-middle {
+      width: 250px;
+      height: 300px;
+    }
+    #eldorado {
+      width: 300px;
+      height: 300px;
+    }
+    #discord {
+        width: 100px;
+        height: 50px;
+    }
+    h2 {
+      text-align: center; 
+    }
+    
+    #english-pic {
+      width: 300px;
+      height: 300px;
+    }
+    
+    .main-nav {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    a.btn {
+      width: 300px;
+    }
+    
+    .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+}
+    
